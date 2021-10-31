@@ -1,0 +1,15 @@
+.logo {
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+@each $logo in black, white {
+  .#{$logo}-logo {
+    color: $logo;
+  }
+}
+.logo-header {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

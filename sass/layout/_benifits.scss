@@ -1,0 +1,31 @@
+.benifits__img {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.benifits__link {
+  display: flex;
+  width: 100%;
+  background: #f5f4fa;
+  border-radius: 4px;
+  height: 120px;
+}
+.benifits__name {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: $black-text;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.benifits__text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $gray;
+}
+.benifits {
+  margin-top: 30px;
+}
