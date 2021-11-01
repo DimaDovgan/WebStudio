@@ -43,7 +43,12 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  padding: 108px 24px;
+  display: flex;
+  padding-right: 24px;
+  padding-left: 24px;
+  align-items: center;
+  height: 100%;
+  // padding: 108px 24px;
   font-size: 18px;
   line-height: 1.56;
   color: $whait;
@@ -63,6 +68,7 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
+  padding-bottom: 20px;
 }
 .project-photo {
   width: 100%;
