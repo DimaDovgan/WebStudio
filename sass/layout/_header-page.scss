@@ -1,25 +1,28 @@
-.exit-figura__header {
+.header-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: $whait;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.exit-figura-header {
   position: absolute;
   right: 21px;
   top: 21px;
   width: 30px;
   height: 30px;
   display: flex;
-
   background-color: $whait;
-
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-.header-page {
-  width: 480px;
-  margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  position: relative;
 }
 .header-page__filter {
   font-weight: 500;
@@ -40,7 +43,7 @@
   }
 }
 .header-page__list {
-  margin-bottom: 302px;
+  margin-bottom: 30px;
 }
 .header-page__contact-link {
   font-weight: 500;
@@ -60,10 +63,12 @@
   }
 }
 .header-page__contact-list {
-  margin-bottom: 64px;
+  margin-bottom: 54px;
 }
 .header-page__sociak-list {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .header-page__social-link {
   font-weight: 500;
@@ -74,6 +79,7 @@
   padding-right: 10px;
 }
 .header-page__social-item {
+  padding-top: 10px;
   &:not(:first-child) {
     &::before {
       content: "";
