@@ -1,8 +1,9 @@
 .hero {
-  width: 100%;
+  max-width: 480px;
   background-image: url(../images/hero-mobil.png);
   height: 400px;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .hero__text {
   font-weight: 900;

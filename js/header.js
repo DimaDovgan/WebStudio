@@ -8,13 +8,13 @@
     refs.openHeaderBtn.addEventListener("click", toggleHeader);
     refs.closeHeaderBtn.addEventListener("click", toggleHeader);
 
-    refs.backdrop.addEventListener("click", logBackdropClick);
+    refs.backdrop.addEventListener("click", logbackdropClick);
 
     function toggleHeader() {
         refs.backdrop.classList.toggle("is-hidden");
     }
 
-    function logBackdropClick() {
+    function logbackdropClick() {
         console.log("Это клик в бекдроп");
     }
 }
