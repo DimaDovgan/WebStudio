@@ -6,6 +6,9 @@
   &:hover {
     fill: $blue;
   }
+  @media screen and(min-width:768px) {
+    display: none;
+  }
 }
 .flex-header {
   display: flex;
@@ -17,4 +20,9 @@
   height: 100%;
   background-color: $whait;
   position: relative;
+}
+.header {
+  @media screen and(min-width:678px) {
+    height: 80px;
+  }
 }

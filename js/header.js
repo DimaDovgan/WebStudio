@@ -2,7 +2,7 @@
     const refs = {
         openHeaderBtn: document.querySelector("[data-open-header]"),
         closeHeaderBtn: document.querySelector("[data-close-header]"),
-        backdrop: document.querySelector("[data-backdrop]"),
+        backdrop: document.querySelector("[data-backdrop-hedre]"),
     };
 
     refs.openHeaderBtn.addEventListener("click", toggleHeader);

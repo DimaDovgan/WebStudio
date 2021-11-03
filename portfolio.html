@@ -18,13 +18,37 @@
 
 <body>
     <header class="header">
-        <div class="container flex-header portfolio-header">
+        <div class="container flex-header">
             <a class="logo link logo-header"><span>Web</span><span class="black-logo">Studio</span></a>
             <a class="header-memu link" data-open-header><svg class="header-memu__img">
                     <use href="./images/sprite.svg#icon-menu-phone"></use>
                 </svg></a>
+            <nav class="header-navigator">
+                <ul class="header-navigator__list list">
+                    <li class="header-navigator__item "><a href="./index.html"
+                            class="header-navigator__link link focus-hover  ">Студия</a></li>
+                    <li class="header-navigator__item"><a href="./portfolio.html"
+                            class="header-navigator__link link focus-hover active-page">Портфолио</a></li>
+                    <li class="header-navigator__item"><a href=""
+                            class="header-navigator__link link focus-hover">Контакты</a></li>
+                </ul>
+    
+                <ul class="header-contacts list ">
+                    <li class="header-contacts__item mail-item"><svg class="icone-mail">
+                            <use href="./images/sprite.svg#icon-gmail"></use>
+                        </svg><a href="mailto:info@devstudio.com"
+                            class="header-contacts__link  link focus-hover">info@devstudio.com</a></li>
+                    <li class="header-contacts__item phone-item"><svg class="icone-phone">
+                            <use href="./images/sprite.svg#icon-phone"></use>
+                        </svg><a href="tel:+380961111111" class="header-contacts__link  link focus-hover phone">+38
+                            096 111 11 11 </a></li>
+                </ul>
+    
+    
+            </nav>
         </div>
-        <div class="backdrop is-hidden heade-pg" data-backdrop>
+    
+        <div class="backdrop is-hidden heade-pg" data-backdrop-hedre>
             <div class="header-page">
                 <div>
                     <ul class="list header-page__list">
@@ -233,48 +257,49 @@
 
     </main>
     <footer class="footer">
-        <div class="container pt pb">
-            <address class="address">
-    
-                <ul class="address-list list">
-                    <li><a href="" class="logo link center-footer">
-                            <span>Web</span><span class="white-logo logo">Studio</span>
-                        </a></li>
-                    <li class="address-list__map"><a href="" class="address-map link focus-hover center-footer">г. Киев,
-                            пр-т Леси Украинки,
-                            26</a>
-                    </li>
-                    <li class="address-list__conta"><a href="mailto:info@example.com"
-                            class="address-contact link focus-hover center-footer">info@example.com</a></li>
-                    <li class="address-list__conta last"><a href="tel:+380991111111"
-                            class="address-contact link focus-hover center-footer">+38
-                            099
-                            111
-                            11 11</a></li>
-                </ul>
-            </address>
-            <section class="social-networks pt">
-                <h2 class="social-networks-name ">присоединяйтесь</h2>
-                <ul class="social-person-list list footer-social-networks">
-                    <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
-                                class="social-person-list__img-footer" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-instagram"></use>
-                            </svg></a></li>
-                    <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
-                                class="social-person-list__img-footer" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-twitter"></use>
-                            </svg></a></li>
-                    <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
-                                class="social-person-list__img-footer" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-facebook"></use>
-                            </svg></a></li>
-                    <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
-                                class="social-person-list__img-footer" width="20" height="20">
-                                <use href="./images/sprite.svg#icon-linkedin"></use>
-                            </svg></a></li>
-                </ul>
-            </section>
-            <section class="mail-section pt">
+        <div class="container pt pb cf">
+            <div class="adres-social">
+                <address class="address">
+                    <ul class="address-list list">
+                        <li><a href="" class="logo link center-footer">
+                                <span>Web</span><span class="white-logo logo">Studio</span>
+                            </a></li>
+                        <li class="address-list__map"><a href="" class="address-map link focus-hover center-footer">г. Киев,
+                                пр-т Леси Украинки,
+                                26</a>
+                        </li>
+                        <li class="address-list__conta"><a href="mailto:info@example.com"
+                                class="address-contact link focus-hover center-footer">info@example.com</a></li>
+                        <li class="address-list__conta last"><a href="tel:+380991111111"
+                                class="address-contact link focus-hover center-footer">+38
+                                099
+                                111
+                                11 11</a></li>
+                    </ul>
+                </address>
+                <section class="social-networks">
+                    <h2 class="social-networks-name ">присоединяйтесь</h2>
+                    <ul class="social-person-list list footer-social-networks">
+                        <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
+                                    class="social-person-list__img-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                </svg></a></li>
+                        <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
+                                    class="social-person-list__img-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                </svg></a></li>
+                        <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
+                                    class="social-person-list__img-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-facebook"></use>
+                                </svg></a></li>
+                        <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
+                                    class="social-person-list__img-footer" width="20" height="20">
+                                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                                </svg></a></li>
+                    </ul>
+                </section>
+            </div>
+            <section class="mail-section">
                 <p class="social-networks-name">Подпишитесь на рассылку</p>
                 <form class="footer-tlegram-form">
                     <input type="email" class="input-email-footer" placeholder="E-mail">

@@ -20,8 +20,31 @@
        <div class="container flex-header">
            <a class="logo link logo-header"><span>Web</span><span class="black-logo">Studio</span></a>
            <a class="header-memu link" data-open-header ><svg class="header-memu__img"><use href="./images/sprite.svg#icon-menu-phone"></use></svg></a>
+        <nav class="header-navigator">
+            <ul class="header-navigator__list list">
+                <li class="header-navigator__item "><a href="./index.html"
+                        class="header-navigator__link link focus-hover active-page ">Студия</a></li>
+                <li class="header-navigator__item"><a href="./portfolio.html"
+                        class="header-navigator__link link focus-hover ">Портфолио</a></li>
+                <li class="header-navigator__item"><a href="" class="header-navigator__link link focus-hover">Контакты</a></li>
+            </ul>
+        
+            <ul class="header-contacts list ">
+                <li class="header-contacts__item mail-item"><svg class="icone-mail">
+                        <use href="./images/sprite.svg#icon-gmail"></use>
+                    </svg><a href="mailto:info@devstudio.com"
+                        class="header-contacts__link  link focus-hover">info@devstudio.com</a></li>
+                <li class="header-contacts__item phone-item"><svg class="icone-phone">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg><a href="tel:+380961111111" class="header-contacts__link  link focus-hover phone">+38
+                        096 111 11 11 </a></li>
+            </ul>
+        
+        
+        </nav>
     </div>
-    <div class="backdrop is-hidden heade-pg" data-backdrop>
+    
+    <div class="backdrop is-hidden heade-pg" data-backdrop-hedre>
         <div class="header-page">
             <div>
             <ul class="list header-page__list">
@@ -58,35 +81,35 @@
             <button type="button" class="btn hero-btn" data-open-modal>Заказать услугу</button>
         </section>
         <!--benifits-->
-        <section class=" mt mb">
-            <ul class="container list">
-                <li>
+        <section class="container mt mb">
+            <ul class="list benifits-list">
+                <li class="benifits-item">
                 <div class="benifits">
-                    <a class="benifits__link link"><svg class="benifits__img" width="65" height="70"><use href="./images/sprite.svg#icon-antenna"></use></svg></a>
+                    <a class="benifits__link link"><svg class="benifits__img" ><use href="./images/sprite.svg#icon-antenna"></use></svg></a>
                     <h3 class="benifits__name">Внимание к деталям</h3>
                     <p class="benifits__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </div></li>
-                <li>
+                <li class="benifits-item">
                 <div class="benifits">
-                    <a class="benifits__link link"><svg class="benifits__img" width="65" height="70">
+                    <a class="benifits__link link"><svg class="benifits__img" >
                             <use href="./images/sprite.svg#icon-clock"></use>
                         </svg></a>
                     <h3 class="benifits__name">Пунктуальность</h3>
                     <p class="benifits__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </div>
                 </li>
-                <li>
+                <li class="benifits-item">
                 <div class="benifits">
-                    <a class="benifits__link link"><svg class="benifits__img" width="65" height="70">
+                    <a class="benifits__link link"><svg class="benifits__img" >
                             <use href="./images/sprite.svg#icon-diagram"></use>
                         </svg></a>
                     <h3 class="benifits__name">Планирование</h3>
                     <p class="benifits__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </div>
                 </li>
-                <li>
+                <li class="benifits-item">
                 <div class="benifits">
-                    <a class="benifits__link link"><svg class="benifits__img" width="65" height="70">
+                    <a class="benifits__link link"><svg class="benifits__img" >
                             <use href="./images/sprite.svg#icon-astronaut"></use>
                         </svg></a>
                     <h3 class="benifits__name">Современные технологии</h3>
@@ -299,9 +322,9 @@
         
     </main>
     <footer class="footer">
-        <div class="container pt pb">
+        <div class="container pt pb cf">
+            <div class="adres-social">
         <address class="address">
-        
             <ul class="address-list list">
                 <li><a href="" class="logo link center-footer">
                         <span>Web</span><span class="white-logo logo">Studio</span>
@@ -317,7 +340,7 @@
                         11 11</a></li>
             </ul>
         </address>
-        <section class="social-networks pt">
+        <section class="social-networks">
             <h2 class="social-networks-name ">присоединяйтесь</h2>
             <ul class="social-person-list list footer-social-networks">
                 <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg
@@ -338,7 +361,8 @@
                         </svg></a></li>
             </ul>
         </section>
-        <section class="mail-section pt">
+        </div>
+        <section class="mail-section">
             <p class="social-networks-name">Подпишитесь на рассылку</p>
             <form class="footer-tlegram-form">
                 <input type="email" class="input-email-footer" placeholder="E-mail">

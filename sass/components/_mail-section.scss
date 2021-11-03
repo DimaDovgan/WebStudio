@@ -2,6 +2,12 @@
 //   margin-left: 93px;
 //   margin-top: 72px;
 // }
+.mail-section {
+  padding-top: 60px;
+  @media screen and(min-width:1200px) {
+    padding-top: 0;
+  }
+}
 .input-email-footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -13,6 +19,9 @@
   height: 50px;
   background-color: transparent;
   margin-top: 20px;
+  max-width: 450px;
+  min-width: 358px;
+  margin: 0 auto;
   &::placeholder {
     color: $gray;
     font-size: 16px;
@@ -33,19 +42,26 @@
   font-size: 16px;
   line-height: 1.87;
   color: $whait;
-  padding: 0;
+  // padding: 0;
   display: flex;
   align-items: center;
   margin: 0 auto;
   margin-top: 20px;
+  @media screen and(min-width:1200px) {
+    margin-top: 0;
+    margin-left: 12px;
+  }
 }
 .footer-tlegram-form {
-  // flex-direction: column;
-  // justify-content: center;
+  @media screen and(min-width:1200px) {
+    display: flex;
+    align-items: center;
+  }
 }
 .telegram-buttom-svg {
   width: 24px;
   height: 24px;
+  margin-right: 22px;
 }
 .email-text-btn {
   padding-left: 30px;
