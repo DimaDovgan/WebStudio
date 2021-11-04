@@ -20,7 +20,10 @@
   background-color: transparent;
   margin-top: 20px;
   max-width: 450px;
-  min-width: 358px;
+  @media screen and(min-width:1200px) {
+    min-width: 358px;
+  }
+
   margin: 0 auto;
   &::placeholder {
     color: $gray;

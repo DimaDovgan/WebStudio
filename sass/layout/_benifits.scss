@@ -39,8 +39,10 @@
 .benifits-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
+  @media screen and(min-width:768px) {
+    margin-right: -30px;
+    margin-top: -30px;
+  }
 }
 .benifits-item {
   @media screen and(min-width:768px) {
