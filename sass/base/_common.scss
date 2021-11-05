@@ -10,13 +10,25 @@ body {
 }
 .mt {
   margin-top: 60px;
+  @media screen and(min-width:1200px) {
+    margin-top: 94px;
+  }
 }
 .pt {
   padding-top: 60px;
+  @media screen and(min-width:1200px) {
+    padding-top: 94px;
+  }
 }
 .mb {
   margin-bottom: 60px;
+  @media screen and(min-width:1200px) {
+    margin-bottom: 94px;
+  }
 }
 .pb {
   padding-bottom: 60px;
+  @media screen and(min-width:1200px) {
+    padding-bottom: 94px;
+  }
 }

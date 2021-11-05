@@ -51,6 +51,9 @@
   line-height: 1.87;
   color: $gray;
   letter-spacing: 0.03em;
+  @media screen and(max-width:768px) {
+    padding-bottom: 20px;
+  }
 }
 .project-container {
   padding-top: 40px;

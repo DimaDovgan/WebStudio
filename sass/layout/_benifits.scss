@@ -4,6 +4,12 @@
   margin-bottom: 25px;
   width: 100%;
 }
+.benifins {
+  margin-bottom: 60px;
+  @media screen and(min-width:1200px) {
+    margin-bottom: 0;
+  }
+}
 .benifits__link {
   display: flex;
   width: 100%;

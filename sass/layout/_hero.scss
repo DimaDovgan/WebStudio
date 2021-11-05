@@ -1,10 +1,57 @@
 .hero {
-  max-width: 480px;
-  background-image: url(../images/hero-mobil.png);
+  background-image: url(../images/tab-hero.jpg);
+  max-width: 768px;
   height: 400px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  background-size: cover;
+  @media screen and(min-width:769px) {
+    height: 600px;
+  }
 }
+@media screen and(max-width:480px) {
+  .hero {
+    background-image: url(../images/mobil-hero.jpg);
+    max-width: 480px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url("../images/mobil-hero@2x.jpg");
+    }
+  }
+}
+@media screen and(min-width:481px) {
+  .hero {
+    background-image: url(../images/tab-hero.jpg);
+    max-width: 768px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url("../images/tab-hero@2x.jpg");
+    }
+  }
+}
+@media screen and(min-width:769px) {
+  .hero {
+    background-image: url(../images/destop-hero.jpg);
+    max-width: 1600px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url("../images/destop-hero@2x.jpg");
+    }
+  }
+}
+
 .hero__text {
   font-weight: 900;
   font-size: 26px;
@@ -18,6 +65,14 @@
   padding-right: 15px;
   margin: 0 auto;
   padding-top: 118px;
+  display: flex;
+  text-align: center;
+  @media screen and(min-width:769px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 650px;
+    padding-top: 200px;
+  }
 }
 
 .hero-btn {

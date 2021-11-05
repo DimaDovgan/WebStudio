@@ -1,0 +1,38 @@
+.work {
+  margin-bottom: 94px;
+  margin-top: 94px;
+  @media screen and(max-width:1199px) {
+    display: none;
+  }
+}
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.work__item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.work-list__name {
+  position: relative;
+}
+.work-list__text {
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $whait;
+  bottom: 0px;
+  left: 0px;
+  padding: 27px;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
+}
