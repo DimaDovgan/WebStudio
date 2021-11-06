@@ -27,6 +27,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 480px) {
@@ -739,11 +740,17 @@ body {
 
 .team__name {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .team__name {
+    font-size: 36px;
+  }
 }
 
 .team-list__person-img {
