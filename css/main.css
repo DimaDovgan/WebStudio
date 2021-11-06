@@ -686,6 +686,12 @@ body {
   margin-top: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .benifits__name {
+    justify-content: start;
+  }
+}
+
 .benifits__text {
   margin-top: 10px;
   font-size: 14px;
